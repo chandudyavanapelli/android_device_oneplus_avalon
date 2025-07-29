@@ -37,13 +37,6 @@ lib_fixups: lib_fixups_user_type = {
         'com.qti.sensor.s5k3p9',
         'libhwconfigurationutil',
         'libPanelChaplin',
-        'libpwirisfeature',
-        'libpwirishalwrapper',
-        'vendor.pixelworks.hardware.display@1.0',
-        'vendor.pixelworks.hardware.display@1.1',
-        'vendor.pixelworks.hardware.display@1.2',
-        'vendor.pixelworks.hardware.feature@1.0',
-        'vendor.pixelworks.hardware.feature@1.1',
     ): lib_fixup_vendor_suffix,
 }
 
@@ -76,7 +69,6 @@ blob_fixups: blob_fixups_user_type = {
     (
         'odm/lib64/libdisplaycolorfeature.so',
         'odm/lib64/libdisplayfossfeature_nature.so',
-        'vendor/bin/hw/vendor.qti.hardware.display.composer-service',
         'vendor/lib64/libdpps.so',
         'vendor/lib64/libsnapdragoncolor-manager.so',
     ): blob_fixup()
