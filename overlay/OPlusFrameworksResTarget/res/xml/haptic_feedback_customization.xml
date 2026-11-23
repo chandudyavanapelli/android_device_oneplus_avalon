@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: The LineageOS Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<haptic-feedback-constants>
+    <!-- TOGGLE_OFF: LOW_TICK is tuned for drag textures and too faint on its own -->
+    <constant id="22">
+        <vibration-effect>
+            <primitive-effect name="tick" scale="0.3" />
+        </vibration-effect>
+    </constant>
+</haptic-feedback-constants>
