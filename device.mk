@@ -71,8 +71,7 @@ $(call soong_config_set,qti_vibrator,effect_lib,libqtivibratoreffect.oplus.avalo
 
 # WiFi firmware symlinks
 PRODUCT_PACKAGES += \
-    firmware_wlan_mac.bin_symlink \
-    firmware_WCNSS_qcom_cfg.ini_symlink
+    firmware_wlan_mac.bin_symlink
 
 # Inherit from the common OEM chipset makefile.
 $(call inherit-product, device/oneplus/sm8650-common/common.mk)
